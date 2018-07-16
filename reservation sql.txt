@@ -1,0 +1,18 @@
+Manage reservation
+
+View Reservation
+
+Select c.cid, c.name, r.invoice_no, r1.hotelid, r1.roomno, r1.checkindate, r1.checkoutdate
+from customer c, reservation r, room_reservation r1 
+where c.cid = r.cid and r.invoice_no = r1.invoice_no;              
+							Here, fetch data from front-end!!!
+
+
+
+Submit reservation 
+
+create table submit_reservation(cid int(10), Name varchar(15), Address varchar(20), Phone_No varchar int (10), email varchar(20), cid int(10), cnumber int(11), rdate date, cnumber int(11), ctype varchar(15), expdate date, name varchar(15), code int(5), hotelid varchar(15), roomno int(10), checkindate date, checkoutdate date); 
+
+
+insert into submit_reservation values(" ");    Data to fetch from Front-End!!!
+

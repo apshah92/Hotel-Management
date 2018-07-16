@@ -1,0 +1,3 @@
+select c.cid, r.hotelid, r.roomno, r.checkindate, r.checkoutdate,r.invoice_no
+from room_reservation r,reservation r1, customer c 
+where r.invoice_no = r1.invoice_no and r1.cid = c.cid;                                                                                    Here, Value coming from front-end!!! 

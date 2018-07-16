@@ -1,0 +1,7 @@
+View Hotel & Room
+
+
+Select * from HOTEL;
+
+Select * from Room 
+GROUP BY hotelId;

@@ -1,0 +1,46 @@
+View or Submit Reviews
+
+View Review
+
+View room Review
+
+select hotelid, rid, rating, text from room_review;
+
+
+
+
+View breakfast review
+
+select hotelid, rid, rating, text, btype from breakfast_review;
+
+
+
+
+View service_review
+
+select hotelid, rid, rating, text, stype from service_review;
+
+
+
+
+Submit Review
+
+
+Room review
+
+
+insert into room_review values( " " );                                   Here, data to be taken from front-end!!!
+
+      
+
+breakfast review
+
+
+insert into breakfast_review values( " " );                                   Here, data to be taken from front-end!!!
+
+
+
+service review
+
+
+insert into service_review values( " " );                                   Here, data to be taken from front-end!!!
